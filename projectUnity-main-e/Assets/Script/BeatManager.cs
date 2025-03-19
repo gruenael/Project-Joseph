@@ -16,6 +16,7 @@ using static MenuController;
 
 // Michael Add
 using UnityEngine.Audio;
+using UnityEngine.InputSystem;
 
 public class BeatManager : MonoBehaviour
 {
@@ -255,9 +256,13 @@ public class BeatManager : MonoBehaviour
     bool flag_finished = false;
     public PlayState playState;
     public bool IsPlaying;
+
+    // Michael Add
+    public InputActionReference menuButton;
+    
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsPlaying == true) 
+        if ((Input.GetKeyDown(KeyCode.Space) || menuButton.action.WasPressedThisFrame()) && IsPlaying == true) 
         {
             pausePanel.gameObject.SetActive(true);
             Time.timeScale = 0f;

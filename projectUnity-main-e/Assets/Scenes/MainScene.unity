@@ -5048,6 +5048,8 @@ MonoBehaviour:
   newHighScoreText: {fileID: 682579333}
   playState: 0
   IsPlaying: 0
+  menuButton: {fileID: -1949997924985683103, guid: 38d8b9d2e77061542ad5db56eeefd437,
+    type: 3}
 --- !u!4 &1216244555
 Transform:
   m_ObjectHideFlags: 0

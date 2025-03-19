@@ -1,0 +1,34 @@
+{
+    "name": "pauseButton",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "01321901-0189-4f0c-9f0b-0601334f7be6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "de05d259-edf3-4b6c-9a23-542f3a0f6346",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a61196df-7313-41b6-a116-0ceffc8ab6a5",
+                    "path": "*/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
