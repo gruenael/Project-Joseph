@@ -2,11 +2,11 @@
     "name": "pauseButton",
     "maps": [
         {
-            "name": "New action map",
+            "name": "Button Check",
             "id": "01321901-0189-4f0c-9f0b-0601334f7be6",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Pause",
                     "type": "Button",
                     "id": "de05d259-edf3-4b6c-9a23-542f3a0f6346",
                     "expectedControlType": "Button",
@@ -23,7 +23,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

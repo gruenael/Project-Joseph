@@ -5048,7 +5048,7 @@ MonoBehaviour:
   newHighScoreText: {fileID: 682579333}
   playState: 0
   IsPlaying: 0
-  menuButton: {fileID: -1949997924985683103, guid: 38d8b9d2e77061542ad5db56eeefd437,
+  pauseButton: {fileID: -1949997924985683103, guid: 38d8b9d2e77061542ad5db56eeefd437,
     type: 3}
 --- !u!4 &1216244555
 Transform:
@@ -5268,11 +5268,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216244553}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13be597f4e3e77d45a69eb7fe42ce27c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuButton: {fileID: -1949997924985683103, guid: 38d8b9d2e77061542ad5db56eeefd437,
+    type: 3}
 --- !u!1 &1228574141
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,6 +5709,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1274834230}
+    - targetCorrespondingSourceObject: {fileID: 7696548424635294048, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1274834238}
     - targetCorrespondingSourceObject: {fileID: 9014170783728641055, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       insertIndex: -1
@@ -6162,7 +6168,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274834223}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -6186,6 +6192,20 @@ MonoBehaviour:
   m_DefaultActionMap: PauseMenu
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1274834238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274834223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActionAssets:
+  - {fileID: -944628639613478452, guid: 38d8b9d2e77061542ad5db56eeefd437, type: 3}
 --- !u!1 &1305458690
 GameObject:
   m_ObjectHideFlags: 0

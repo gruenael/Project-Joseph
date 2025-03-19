@@ -258,11 +258,11 @@ public class BeatManager : MonoBehaviour
     public bool IsPlaying;
 
     // Michael Add
-    public InputActionReference menuButton;
+    public InputActionReference pauseButton;
     
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || menuButton.action.WasPressedThisFrame()) && IsPlaying == true) 
+        if ((Input.GetKeyDown(KeyCode.Space) || pauseButton.action.triggered) && IsPlaying == true) 
         {
             pausePanel.gameObject.SetActive(true);
             Time.timeScale = 0f;
