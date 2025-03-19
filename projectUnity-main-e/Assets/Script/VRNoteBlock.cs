@@ -371,14 +371,15 @@ public class VRNoteBlock : Note
         }
     }
 
-    public void OnSelectEnter(XRBaseInteractor interactor)
-    {
-        Debug.Log("OnSelectEnter " + gameObject.name);
-    }
+    // public void OnSelectEnter(XRBaseInteractor interactor)
+    // {
+    //     Debug.Log("OnSelectEnter " + gameObject.name);
+    // }
 
     public void OnSelectExit(XRBaseInteractor interactor)
     {
         Debug.Log("OnSelectExit " + gameObject.name);
+        GameManager.Instance.SetAnswer(isCorrect);
     }
 
 }

@@ -282,9 +282,6 @@ public class BeatManager : MonoBehaviour
                 noteIndex++;
             }
         }
-
-        // Michael Add
-        Debug.Log(PlayerPrefs.GetFloat("musicVolume"));
     }
 
     void SpawnNote()
