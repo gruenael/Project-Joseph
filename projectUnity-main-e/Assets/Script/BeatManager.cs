@@ -16,7 +16,6 @@ using static MenuController;
 
 // Michael Add
 using UnityEngine.Audio;
-using OVRTouchSample;
 
 public class BeatManager : MonoBehaviour
 {
@@ -258,7 +257,7 @@ public class BeatManager : MonoBehaviour
     public bool IsPlaying;
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || OVRInput.GetDown(OVRInput.Button.Start)) && IsPlaying == true) 
+        if (Input.GetKeyDown(KeyCode.Space) && IsPlaying == true) 
         {
             pausePanel.gameObject.SetActive(true);
             Time.timeScale = 0f;
