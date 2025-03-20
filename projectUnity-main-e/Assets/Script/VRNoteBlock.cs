@@ -8,6 +8,8 @@ using VRBeats;
 
 //Michael Add
 using UnityEngine.XR.Interaction.Toolkit;
+using Unity.VisualScripting;
+using VRBeats.ScriptableEvents;
 
 public class VRNoteBlock : Note
 {
@@ -371,15 +373,22 @@ public class VRNoteBlock : Note
         }
     }
 
-    // public void OnSelectEnter(XRBaseInteractor interactor)
-    // {
-    //     Debug.Log("OnSelectEnter " + gameObject.name);
-    // }
+    public void OnSelectEnter(XRBaseInteractor interactor)
+    {
+        if ((gameObject == blueGripBlock || gameObject == redGripBlock) && grabInteractable.isSelected)
+        {
+            isGripped = true;
+            Debug.Log("Gripped " + gameObject);
+        }
+    }
 
     public void OnSelectExit(XRBaseInteractor interactor)
     {
-        Debug.Log("OnSelectExit " + gameObject.name);
-        GameManager.Instance.SetAnswer(isCorrect);
+        if ((gameObject == blueGripBlock || gameObject == redGripBlock) && !grabInteractable.isSelected)
+        {
+            isGripped = false;
+            Debug.Log("Let go of " + selectedBlock.name);
+        }
     }
 
 }
