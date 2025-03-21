@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text TMP_Score;
     public TMP_Text TMP_Combo;
+
+    // Michael add
+    public GameObject blueCube;
+    public GameObject redCube;
+
     private void Awake()
     {
         Instance = this;

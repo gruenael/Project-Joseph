@@ -371,6 +371,9 @@ public class VRNoteBlock : Note
             //     grabInteractable = gameObject.AddComponent<XRGrabInteractable>();
             // }
         }
+
+        GameManager.Instance.blueCube.SetActive(false);
+        GameManager.Instance.redCube.SetActive(false);
     }
 
     public void OnSelectEnter(XRBaseInteractor interactor)
@@ -379,6 +382,8 @@ public class VRNoteBlock : Note
         {
             isGripped = true;
             Debug.Log("Gripped " + gameObject);
+            GameManager.Instance.blueCube.SetActive(true);
+            GameManager.Instance.redCube.SetActive(false);
         }
     }
 
@@ -388,6 +393,8 @@ public class VRNoteBlock : Note
         {
             isGripped = false;
             Debug.Log("Let go of " + selectedBlock.name);
+            GameManager.Instance.blueCube.SetActive(false);
+            GameManager.Instance.redCube.SetActive(true);
         }
     }
 
