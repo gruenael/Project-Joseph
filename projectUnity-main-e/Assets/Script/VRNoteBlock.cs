@@ -65,7 +65,8 @@ public class VRNoteBlock : Note
             gripEnd.AddComponent<ReleaseGripBlock>();
             gripEnd.GetComponent<ReleaseGripBlock>().nearMaterial = gripBlockMaterial;
             gripEnd.transform.localPosition = selectedBlock.transform.localPosition;
-            gripEnd.transform.GetComponent<BoxCollider>().size = new Vector3(2, 2, 6);
+            // gripEnd.transform.GetComponent<BoxCollider>().size = new Vector3(2, 2, 6);
+            gripEnd.transform.GetComponent<BoxCollider>().size = new Vector3(1, 1, 1);
 
             gripEnd.transform.localPosition += (Vector3.forward * (gripLong+1));
             gripEnd.layer = LayerMask.NameToLayer(type == ColorSide.GripL ? "Blue Block" : "Red Block");
