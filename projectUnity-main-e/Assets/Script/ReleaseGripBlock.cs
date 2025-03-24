@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ReleaseGripBlock : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class ReleaseGripBlock : MonoBehaviour
     public bool isReleased;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject);
+        Debug.Log("Enter");
         if (!isColliding)
         {
             isColliding = true;
@@ -23,7 +24,9 @@ public class ReleaseGripBlock : MonoBehaviour
     {
         GetComponent<MeshRenderer>().sharedMaterial = nearMaterial;
         yield return new WaitUntil(() => collision.GetComponent<HandAnimator>().isGripping == false);
+        Debug.Log("Released");
         isReleased = true;
+        GameManager.Instance.SetAnswer(isReleased);
 
         float time = 0;
         while (time <= 1)
@@ -43,3 +46,4 @@ public class ReleaseGripBlock : MonoBehaviour
         
     }
 }
+

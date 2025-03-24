@@ -10,6 +10,7 @@ using VRBeats;
 using UnityEngine.XR.Interaction.Toolkit;
 using Unity.VisualScripting;
 using VRBeats.ScriptableEvents;
+using System;
 
 public class VRNoteBlock : Note
 {
@@ -115,11 +116,7 @@ public class VRNoteBlock : Note
 
                 }
             }
-           
-
-
         }
-      
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -366,36 +363,7 @@ public class VRNoteBlock : Note
         if (grabInteractable == null)
         {
             grabInteractable = GetComponent<XRGrabInteractable>();
-            // if (grabInteractable == null)
-            // {
-            //     grabInteractable = gameObject.AddComponent<XRGrabInteractable>();
-            // }
-        }
-
-        GameManager.Instance.blueCube.SetActive(false);
-        GameManager.Instance.redCube.SetActive(false);
-    }
-
-    public void OnSelectEnter(XRBaseInteractor interactor)
-    {
-        if ((gameObject == blueGripBlock || gameObject == redGripBlock) && grabInteractable.isSelected)
-        {
-            isGripped = true;
-            Debug.Log("Gripped " + gameObject);
-            GameManager.Instance.blueCube.SetActive(true);
-            GameManager.Instance.redCube.SetActive(false);
+            
         }
     }
-
-    public void OnSelectExit(XRBaseInteractor interactor)
-    {
-        if ((gameObject == blueGripBlock || gameObject == redGripBlock) && !grabInteractable.isSelected)
-        {
-            isGripped = false;
-            Debug.Log("Let go of " + selectedBlock.name);
-            GameManager.Instance.blueCube.SetActive(false);
-            GameManager.Instance.redCube.SetActive(true);
-        }
-    }
-
 }

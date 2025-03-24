@@ -100,7 +100,7 @@ public class BeatManager : MonoBehaviour
                     foreach (var clip in activationTrack.GetMarkers())
                     {
                         // Add the start time of the clip (keyframe time) to the list
-                        Debug.Log("cliptime : " + (float)clip.time);
+                        // Debug.Log("cliptime : " + (float)clip.time); =========================================================================
                         if(clip is VR_BeatSpawnMarker marker)
                         {
                             if (noteTimes.Find(x => x.time == (float)clip.time) != null)
