@@ -26,7 +26,6 @@ public class ReleaseGripBlock : MonoBehaviour
         yield return new WaitUntil(() => collision.GetComponent<HandAnimator>().isGripping == false);
         Debug.Log("Released Grip");
         isReleased = true;
-        GameManager.Instance.SetAnswer(isReleased);
         isColliding = false;
 
         float time = 0;
