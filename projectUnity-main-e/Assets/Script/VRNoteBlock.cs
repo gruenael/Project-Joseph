@@ -66,7 +66,7 @@ public class VRNoteBlock : Note
             gripEnd.GetComponent<ReleaseGripBlock>().nearMaterial = gripBlockMaterial;
             gripEnd.transform.localPosition = selectedBlock.transform.localPosition;
             // gripEnd.transform.GetComponent<BoxCollider>().size = new Vector3(2, 2, 6);
-            gripEnd.transform.GetComponent<BoxCollider>().size = new Vector3(1, 1, 1);
+            gripEnd.transform.GetComponent<BoxCollider>().size = new Vector3(3, 3, 4);
 
             gripEnd.transform.localPosition += (Vector3.forward * (gripLong+1));
             gripEnd.layer = LayerMask.NameToLayer(type == ColorSide.GripL ? "Blue Block" : "Red Block");
@@ -207,10 +207,11 @@ public class VRNoteBlock : Note
                     {
                         yield return null;  
                         yield return null;
-                        isCorrect = gripEnd.GetComponent<ReleaseGripBlock>().isReleased;
+                        // isCorrect = gripEnd.GetComponent<ReleaseGripBlock>().isReleased;
+
 
                         StopCoroutine(routine);
-                        lineRenderer.gameObject.SetActive(false) ;
+                        lineRenderer.gameObject.SetActive(false);
 
                         float gripEndTime = 0;
                         while (gripEndTime <= dissolveTimer)
@@ -353,19 +354,6 @@ public class VRNoteBlock : Note
             lineRenderer.SetPosition(0, target.transform.position);
             lineRenderer.SetPosition(1, gripEnd.transform.position);
             yield return null;  
-        }
-    }
-
-    // Michael Add
-    [Header("Michael Add")]
-    public XRGrabInteractable grabInteractable;
-
-    void Start()
-    {
-        if (grabInteractable == null)
-        {
-            grabInteractable = GetComponent<XRGrabInteractable>();
-            
         }
     }
 }

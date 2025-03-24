@@ -9,6 +9,7 @@ public class ReleaseGripBlock : MonoBehaviour
     public Material nearMaterial;
     public bool isColliding;
     public bool isReleased;
+
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Enter");
@@ -16,7 +17,6 @@ public class ReleaseGripBlock : MonoBehaviour
         {
             isColliding = true;
             StartCoroutine(IE_CheckForRelease(other));
-
         }
     }
 
@@ -24,9 +24,9 @@ public class ReleaseGripBlock : MonoBehaviour
     {
         GetComponent<MeshRenderer>().sharedMaterial = nearMaterial;
         yield return new WaitUntil(() => collision.GetComponent<HandAnimator>().isGripping == false);
-        Debug.Log("Released Grip");
         isReleased = true;
-        isColliding = false;
+        GameManager.Instance.SetAnswer(isReleased);
+        Debug.Log("Released Grip " + isReleased);
 
         float time = 0;
         while (time <= 1)
@@ -43,7 +43,7 @@ public class ReleaseGripBlock : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-
+        
     }
 }
 

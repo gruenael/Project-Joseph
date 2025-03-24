@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
 
     public void SetAnswer(bool answer)
     {
+        Debug.Log("SetAnswer to " + answer);
         if (answer)
         {
             score += combo > 200 ? 320 : combo > 100 ? 310 : 300;
