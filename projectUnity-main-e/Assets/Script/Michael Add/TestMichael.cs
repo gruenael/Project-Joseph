@@ -14,9 +14,7 @@ public class TestMichael : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        grabInteractable = noteBlock.GetComponent<XRGrabInteractable>();
-        blueCube.gameObject.SetActive(false);
-        redCube.gameObject.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -24,28 +22,4 @@ public class TestMichael : MonoBehaviour
     {
         
     }
-
-    public void OnSelectEnter(XRBaseInteractor interactor)
-    {
-        if (grabInteractable.isSelected)
-        {
-            // isGripped = true;
-            // Debug.Log("Gripped " + gameObject);
-            blueCube.gameObject.SetActive(true);
-            redCube.gameObject.SetActive(false);
-        }
-    }
-
-    public void OnSelectExit(XRBaseInteractor interactor)
-    {
-        if (!grabInteractable.isSelected)
-        {
-            // isGripped = false;
-            // Debug.Log("Let go of " );
-            blueCube.gameObject.SetActive(false);
-            redCube.gameObject.SetActive(true);
-        }
-    }
-
-    
 }

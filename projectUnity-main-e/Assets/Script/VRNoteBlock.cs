@@ -173,13 +173,14 @@ public class VRNoteBlock : Note
             {
                 isCollidingCorrect = true;
                 isGripped = true;
-
+                Debug.Log("Start Gripping");
             }
 
             if (LayerMask.LayerToName(gameObject.layer) == "Red Block" && LayerMask.LayerToName(collision.gameObject.layer) == "Red Hand")
             {
                 isCollidingCorrect = true;
                 isGripped = true;
+                Debug.Log("Start Gripping");
             }
             if (isCollidingCorrect)
             {
