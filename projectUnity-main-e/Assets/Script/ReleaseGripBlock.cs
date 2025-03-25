@@ -10,9 +10,19 @@ public class ReleaseGripBlock : MonoBehaviour
     public bool isColliding;
     public bool isReleased;
 
+    //Michael Add
+    VRNoteBlock noteScript;
+    public bool isGripped;
+
+    void Start()
+    {
+        noteScript = GetComponentInParent<VRNoteBlock>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Enter");
+        Debug.Log("Entering " + this.gameObject.name);
+        if (other.GetComponent<HandAnimator>().isGripping) isGripped = true;
         if (!isColliding)
         {
             isColliding = true;
@@ -24,9 +34,15 @@ public class ReleaseGripBlock : MonoBehaviour
     {
         GetComponent<MeshRenderer>().sharedMaterial = nearMaterial;
         yield return new WaitUntil(() => collision.GetComponent<HandAnimator>().isGripping == false);
-        isReleased = true;
-        GameManager.Instance.SetAnswer(isReleased);
-        Debug.Log("Released Grip " + isReleased);
+        // Michael add
+        if (isGripped) {
+            isReleased = true;
+            isColliding = false;
+            isGripped = false;
+            noteScript.EndOfLifetime(isReleased);
+            Debug.Log("Released Grip " + isReleased);
+        }
+        // End Michael add
 
         float time = 0;
         while (time <= 1)
@@ -43,7 +59,7 @@ public class ReleaseGripBlock : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        
+        isReleased = false;
     }
 }
 

@@ -104,7 +104,7 @@ public class VRNoteBlock : Note
                 {
                     if(gripEnd.transform.position.z < 0)
                     {
-                        EndOfLifetime();
+                        EndOfLifetime(isCorrect);
 
                     }
                 }
@@ -113,7 +113,7 @@ public class VRNoteBlock : Note
             {
                 if (transform.position.z < -5f)
                 {
-                    EndOfLifetime();
+                    EndOfLifetime(isCorrect);
 
                 }
             }
@@ -140,8 +140,11 @@ public class VRNoteBlock : Note
 
     }
 
-    public void EndOfLifetime()
+    // Michael add, bool parameter
+    public void EndOfLifetime(bool isCorrect)
     {
+        Debug.Log("End of Lifetime of " + gameObject.name + " " + isCorrect);
+
         EndOfLife = true;
 
           Destroy(gameObject);
@@ -207,7 +210,7 @@ public class VRNoteBlock : Note
                     {
                         yield return null;  
                         yield return null;
-                        // isCorrect = gripEnd.GetComponent<ReleaseGripBlock>().isReleased;
+                        isCorrect = gripEnd.GetComponent<ReleaseGripBlock>().isReleased;
 
 
                         StopCoroutine(routine);
