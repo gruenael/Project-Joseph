@@ -88,33 +88,44 @@ public class VRNoteBlock : Note
             blockType = type;
 
         }
-
     }
+
+    public BeatManager beatManager;
+
+    void Start()
+    {
+        beatManager = FindObjectOfType<BeatManager>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (isDestroyed == false)
+        if (beatManager.IsPlaying) 
         {
-            transform.Translate(Vector3.back * speed * Time.deltaTime);  // Move note downward
-
-            // Destroy note if it goes off-screen
-            if (blockType == ColorSide.GripL || blockType == ColorSide.GripR) 
+            Debug.Log("Playing");
+            if (isDestroyed == false)
             {
-                if (gripEnd != null)
+                transform.Translate(Vector3.back * speed * Time.deltaTime);  // Move note downward
+
+                // Destroy note if it goes off-screen
+                if (blockType == ColorSide.GripL || blockType == ColorSide.GripR) 
                 {
-                    if(gripEnd.transform.position.z < 0)
+                    if (gripEnd != null)
+                    {
+                        if(gripEnd.transform.position.z < 0)
+                        {
+                            EndOfLifetime(isCorrect);
+
+                        }
+                    }
+                }
+                else
+                {
+                    if (transform.position.z < -5f)
                     {
                         EndOfLifetime(isCorrect);
 
                     }
-                }
-            }
-            else
-            {
-                if (transform.position.z < -5f)
-                {
-                    EndOfLifetime(isCorrect);
-
                 }
             }
         }

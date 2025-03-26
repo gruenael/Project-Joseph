@@ -212,7 +212,9 @@ public class BeatManager : MonoBehaviour
     public void Continue(){
 
         pausePanel.gameObject.SetActive(false);
-        Time.timeScale = 1f;
+        // Time.timeScale = 1f;
+        musicDirector.Play();
+        IsPlaying = true;
     }
 
     public void Restart()
@@ -262,29 +264,54 @@ public class BeatManager : MonoBehaviour
     
     void Update()
     {
+        // Pausing the game
         if ((Input.GetKeyDown(KeyCode.Space) || pauseButton.action.triggered) && IsPlaying == true) 
         {
-            pausePanel.gameObject.SetActive(true);
-            Time.timeScale = 0f;
+            pausePanel.SetActive(true);
+            FindObjectsOfType<RayTracker>(true).ToList().ForEach(x => x.gameObject.SetActive(true));
+            musicDirector.Pause();
+            // Time.timeScale = 0f;
+            IsPlaying = false;
         }
 
-        if (IsPlaying == false)
-            return;
-        musicTimeTMP.text = musicDirector.time.ToString("0.00");
+        // if (IsPlaying == false)
+        //     return;
+        // musicTimeTMP.text = musicDirector.time.ToString("0.00");
 
-        if (noteIndex < noteTimes.Count)
+        // if (noteIndex < noteTimes.Count)
+        // {
+        //     // Get the distance the note needs to travel along the z-axis
+        //     float distance = spawnPoints[0].position.z;  // Assuming notes move along the z-axis
+
+        //     // Calculate the time it will take to travel that distance
+        //     float timeToTravel = distance / noteSpawnTime;
+
+        //     // Check if the current time is greater than the note time minus travel time
+        //     if (musicDirector.time >= noteTimes[noteIndex].time - timeToTravel)
+        //     {
+        //         SpawnNote();
+        //         noteIndex++;
+        //     }
+        // }
+
+        if (IsPlaying)
         {
-            // Get the distance the note needs to travel along the z-axis
-            float distance = spawnPoints[0].position.z;  // Assuming notes move along the z-axis
+            musicTimeTMP.text = musicDirector.time.ToString("0.00");
 
-            // Calculate the time it will take to travel that distance
-            float timeToTravel = distance / noteSpawnTime;
-
-            // Check if the current time is greater than the note time minus travel time
-            if (musicDirector.time >= noteTimes[noteIndex].time - timeToTravel)
+            if (noteIndex < noteTimes.Count)
             {
-                SpawnNote();
-                noteIndex++;
+                // Get the distance the note needs to travel along the z-axis
+                float distance = spawnPoints[0].position.z;  // Assuming notes move along the z-axis
+
+                // Calculate the time it will take to travel that distance
+                float timeToTravel = distance / noteSpawnTime;
+
+                // Check if the current time is greater than the note time minus travel time
+                if (musicDirector.time >= noteTimes[noteIndex].time - timeToTravel)
+                {
+                    SpawnNote();
+                    noteIndex++;
+                }
             }
         }
     }
