@@ -6059,7 +6059,7 @@ MonoBehaviour:
     musicArtist: Different Heaven
     difficulty: Normal
     time: 3:24
-    noteSpeed: 3
+    noteSpeed: 5
     noteSpawnTime: 7
     musicAssets: {fileID: 11400000, guid: 3b7bd28e99b61514f805274b82999284, type: 2}
   - musicTitle: On & On (feat. Daniel Levi)
@@ -6073,8 +6073,8 @@ MonoBehaviour:
     musicArtist: Unknown Brain
     difficulty: Normal
     time: 2:59
-    noteSpeed: 5
-    noteSpawnTime: 5
+    noteSpeed: 6
+    noteSpawnTime: 6
     musicAssets: {fileID: 11400000, guid: 42e2c951d2c9eca4c8660b2d656b8f68, type: 2}
   - musicTitle: Sky High
     musicArtist: Elektromania
@@ -6087,15 +6087,15 @@ MonoBehaviour:
     musicArtist: Barren Gates & BEAUZ
     difficulty: Hard
     time: 2:56
-    noteSpeed: 5
-    noteSpawnTime: 5
+    noteSpeed: 6
+    noteSpawnTime: 6
     musicAssets: {fileID: 11400000, guid: f72ae7fac997dd84182277bc5efc22dc, type: 2}
   - musicTitle: Limitless
     musicArtist: Elektromania
     difficulty: Hard
     time: 3:28
-    noteSpeed: 5
-    noteSpawnTime: 5
+    noteSpeed: 7
+    noteSpawnTime: 7
     musicAssets: {fileID: 11400000, guid: faae097b83f1245458f5aa2c327dd017, type: 2}
   musicRowTemplate: {fileID: 4203630282547633043, guid: 3f06d6d1f52251040a5ac4413defab85,
     type: 3}
