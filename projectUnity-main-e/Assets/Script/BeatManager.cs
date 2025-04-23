@@ -77,7 +77,6 @@ public class BeatManager : MonoBehaviour
         noteIndex = 0;
         GameManager.Instance.score = 0;
         GameManager.Instance.TMP_Score.text = "0";
-        GameManager.Instance.combo = 0;
         GameManager.Instance.TMP_Combo.text = "";
         normalScoreBoard.gameObject.SetActive(true);
         endingPanel.gameObject.SetActive(false);

@@ -165,7 +165,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Untar.Rhythmic
+    Android: com.DefaultCompany.Gamelan
     Standalone: com.DefaultCompany.Gamelan
   buildNumber:
     Standalone: 0
