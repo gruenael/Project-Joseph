@@ -76,6 +76,7 @@ public class BeatManager : MonoBehaviour
         noteTimes.Clear();
         noteIndex = 0;
         GameManager.Instance.score = 0;
+        GameManager.Instance.combo = 0;
         GameManager.Instance.TMP_Score.text = "0";
         GameManager.Instance.TMP_Combo.text = "";
         normalScoreBoard.gameObject.SetActive(true);
@@ -236,6 +237,7 @@ public class BeatManager : MonoBehaviour
         noteIndex = 0;
         GameManager.Instance.score = 0;
         GameManager.Instance.TMP_Score.text = "0";
+        GameManager.Instance.combo = 0;
         GameManager.Instance.TMP_Combo.text = "";
         normalScoreBoard.gameObject.SetActive(true);
         endingPanel.gameObject.SetActive(false);
@@ -243,6 +245,8 @@ public class BeatManager : MonoBehaviour
     }
     public void BackToMenu()
     {
+        musicDirector.Stop();
+        musicDirector.Evaluate();
         DestroyAllObject("NoteBlock");
         normalScoreBoard.gameObject.SetActive(false);
         endingPanel.gameObject.SetActive(false);

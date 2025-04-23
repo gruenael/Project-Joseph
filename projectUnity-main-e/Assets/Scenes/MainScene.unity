@@ -5229,7 +5229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   XROrigin: {fileID: 290097113}
   heightSlider: {fileID: 1148382204}
-  minimumHeight: 1
+  minimumHeight: 1.35
 --- !u!114 &1148382204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5275,9 +5275,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 849088675}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 0.7
+  m_MaxValue: 0.35
   m_WholeNumbers: 0
-  m_Value: 0.7
+  m_Value: 0.3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
