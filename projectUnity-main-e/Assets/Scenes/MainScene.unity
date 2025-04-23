@@ -979,10 +979,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 943410192}
   m_HandleRect: {fileID: 1987466136}
   m_Direction: 0
-  m_MinValue: -0.1
-  m_MaxValue: 0.4
+  m_MinValue: 0
+  m_MaxValue: 0.7
   m_WholeNumbers: 0
-  m_Value: 0.127
+  m_Value: 0.7
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -998,8 +998,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77862d9a9978389488de2181f3cd91e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XROrigin: {fileID: 1274834223}
+  XROrigin: {fileID: 290097113}
   heightSlider: {fileID: 267759209}
+  minimumHeight: 1
 --- !u!1 &290097113 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9014170783728641055, guid: 895f6f3c2d334633b5800312285058d2,
@@ -5850,17 +5851,12 @@ PrefabInstance:
     - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12
+      value: 0.127
       objectReference: {fileID: 0}
     - target: {fileID: 7696548424635294051, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.53999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 7873184977108000993, guid: 895f6f3c2d334633b5800312285058d2,
-        type: 3}
-      propertyPath: m_CameraYOffset
-      value: 1.36144
       objectReference: {fileID: 0}
     - target: {fileID: 8063056433196656523, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
