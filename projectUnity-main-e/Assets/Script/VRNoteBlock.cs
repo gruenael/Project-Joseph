@@ -102,7 +102,6 @@ public class VRNoteBlock : Note
     {
         if (beatManager.IsPlaying) 
         {
-            Debug.Log("Playing");
             if (isDestroyed == false)
             {
                 transform.Translate(Vector3.back * speed * Time.deltaTime);  // Move note downward

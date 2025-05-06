@@ -63,8 +63,14 @@ public class BeatManager : MonoBehaviour
 
     public PlayableDirector musicDirector;
 
+    public Coroutine waitForSongCoroutine;
+
+    private bool isPaused = false;
+    private bool isRestarting = false;
+
     private void Awake()
     {
+        DontDestroyOnLoad(this.gameObject);
         continueButton.onClick.AddListener(Continue);
         restartButton.onClick.AddListener(Restart);
         backToMenuButton.onClick.AddListener(BackToMenu);
@@ -140,7 +146,14 @@ public class BeatManager : MonoBehaviour
         await Task.Delay(3000);
         musicDirector.Play();
         IsPlaying = true;
-        StartCoroutine(IE_WaitForEndOfSong());
+        isPaused = false;
+        isRestarting = false;
+        if (waitForSongCoroutine != null)
+        {
+            StopCoroutine(waitForSongCoroutine);
+        }
+        Debug.Log("Start Coroutine");
+        waitForSongCoroutine = StartCoroutine(IE_WaitForEndOfSong());
     }
 
     [Header("Ending")]
@@ -151,7 +164,6 @@ public class BeatManager : MonoBehaviour
 
     public Button restartButton;
     public Button backToMenuButton;
-    public Button backToMenuButtonNow;
     public Button continueButton;
 
     public GameObject newHighScoreText;
@@ -159,13 +171,20 @@ public class BeatManager : MonoBehaviour
     private IEnumerator IE_WaitForEndOfSong()
 
     {
-        float time = 0;
-        while (time < musicDirector.duration)
+         float time = 0;
+        while (time < musicDirector.duration && !isRestarting)
         {
-            time += Time.deltaTime;
+            if (!isPaused)
+            {
+                time += Time.deltaTime;
+            }
             yield return null;
         }
-        MusicFinished(musicDirector) ;
+
+        if (!isRestarting)
+        {
+            MusicFinished(musicDirector);
+        }
 
     }
         
@@ -201,11 +220,10 @@ public class BeatManager : MonoBehaviour
         
     }
 
-    private void DestroyAllObject(string tag)
+    public void DestroyAllObject(string tag)
     {
-        GameObject[] objects = GameObject.FindGameObjectsWithTag(tag);
-        foreach (GameObject obj in objects)
-        {
+        var objects = GameObject.FindGameObjectsWithTag(tag);
+        foreach (var obj in objects){
             Destroy(obj);
         }
     }
@@ -216,19 +234,34 @@ public class BeatManager : MonoBehaviour
         // Time.timeScale = 1f;
         musicDirector.Play();
         IsPlaying = true;
+        isPaused = false;
     }
 
     public void Restart()
     {
+        isRestarting = true;
         DestroyAllObject("NoteBlock");
+
+        if (waitForSongCoroutine != null)
+        {
+            StopCoroutine(waitForSongCoroutine);
+            waitForSongCoroutine = null;
+            DestroyAllObject("NoteBlock");
+            Debug.Log("Coroutine Stop");
+        }
+        
         if (musicDirector != null)
         {
             musicDirector.Stop();
-            musicDirector.Evaluate(); // Update timeline ke frame awal
-            StartMusic();
-        };
+            musicDirector.time = 0;
+            musicDirector.Evaluate();
+            DestroyAllObject("NoteBlock");
+        }
+
+        DestroyAllObject("NoteBlock");
+        StartMusic();
         FindObjectsOfType<RayTracker>(true).ToList().ForEach(x => x.gameObject.SetActive(false));
-        Continue();
+        pausePanel.gameObject.SetActive(false);
     }
 
     private void OnApplicationQuit()
@@ -248,16 +281,16 @@ public class BeatManager : MonoBehaviour
         musicDirector.Stop();
         musicDirector.Evaluate();
         DestroyAllObject("NoteBlock");
-        normalScoreBoard.gameObject.SetActive(false);
-        endingPanel.gameObject.SetActive(false);
-        FindObjectOfType<MenuController>(true).canvasMenu.SetActive(true);
         FindObjectsOfType<MusicRow>(true).ToList().ForEach(x => x.ReloadData());
+        if (waitForSongCoroutine != null) {
+            StopCoroutine(waitForSongCoroutine);
+            waitForSongCoroutine = null;
+            Debug.Log("Coroutine Stopped");
+        }
+        FindObjectOfType<MenuController>(true).canvasMenu.SetActive(true);
+        endingPanel.gameObject.SetActive(false);
+        normalScoreBoard.gameObject.SetActive(false);
     }
-
-    public void DisplayPauseMenu(){
-        
-    }
-
 
     bool flag_finished = false;
     public PlayState playState;
@@ -276,6 +309,7 @@ public class BeatManager : MonoBehaviour
             musicDirector.Pause();
             // Time.timeScale = 0f;
             IsPlaying = false;
+            isPaused = true;
         }
 
         // if (IsPlaying == false)

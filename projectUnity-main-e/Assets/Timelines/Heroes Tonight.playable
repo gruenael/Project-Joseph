@@ -1,105 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9217730580590621339
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 150.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-9208749167809423595
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 54
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-9192952825360015164
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 122
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-9182185024245928209
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 68
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-9153230497744528608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -124,81 +24,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 1
-    gripLong: 1
---- !u!114 &-9149349981745009652
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 30
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &-9148761733748475781
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 163.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &-9113766310982432196
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 154.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
     gripLong: 1
 --- !u!114 &-9085919108445120051
 MonoBehaviour:
@@ -237,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 117
+  m_Time: 120.01666666666667
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -300,31 +125,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-9001082154193904901
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 24
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
 --- !u!114 &-8994398540192078183
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -366,7 +166,7 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 0}
---- !u!114 &-8559915451142757146
+--- !u!114 &-8611658742944895402
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -378,18 +178,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 169
+  m_Time: 154.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
+    twinLane: 0
     gripLong: 1
 --- !u!114 &-8476039343247354901
 MonoBehaviour:
@@ -441,7 +241,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-8424995584578932945
+--- !u!114 &-8396330955320192575
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -453,62 +253,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 140.5
+  m_Time: 148.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-8380451979817441114
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 47
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-8327250382603155706
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 146
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -541,6 +291,117 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
+--- !u!74 &-8255317818831132544
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AudioTrack
+  serializedVersion: 7
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.5
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: volume
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+    flags: 0
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.5
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: volume
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+    flags: 0
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
 --- !u!114 &-8177163839621863809
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -590,81 +451,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 0
-    gripLong: 1
---- !u!114 &-8034039181379155909
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 157.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &-7976313609032448660
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 11
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &-7960890143410402264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 151
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
     gripLong: 1
 --- !u!114 &-7957145204726819081
 MonoBehaviour:
@@ -716,106 +502,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-7912959067490322511
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 147
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-7831554344969720229
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 174
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-7803883743279440201
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 164
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-7790133677319784631
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 49
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
 --- !u!114 &-7675582809694641941
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -840,31 +526,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 2
-    gripLong: 1
---- !u!114 &-7603416055768293774
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 140
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
     gripLong: 1
 --- !u!114 &-7589439234023081604
 MonoBehaviour:
@@ -1016,7 +677,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &-7097198074595797043
+--- !u!114 &-7122907850200891919
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1028,18 +689,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 14
+  m_Time: 147.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
+    twinLane: 0
     gripLong: 1
 --- !u!114 &-7038397559193566722
 MonoBehaviour:
@@ -1116,7 +777,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-6862047860713614068
+--- !u!114 &-6868032473015527138
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1128,37 +789,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 178
+  m_Time: 140.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-6857174038053311949
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 148
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
+    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -1184,56 +820,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-6699798362765128617
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 94
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 3
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &-6663926403114944847
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 73
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -1383,89 +969,55 @@ MonoBehaviour:
     m_DisplayName: Active
   m_Markers:
     m_Objects:
-    - {fileID: 6721200723406938695}
     - {fileID: 3458623067185057890}
     - {fileID: -9085919108445120051}
-    - {fileID: -6119593783406546757}
     - {fileID: 2678998796596482005}
     - {fileID: -5150164703003766}
     - {fileID: -2476916122011383226}
-    - {fileID: 4538008064454493358}
     - {fileID: -6928768242475817308}
-    - {fileID: -2276731590673232892}
-    - {fileID: -1995952761828340156}
     - {fileID: -1466702949340810456}
     - {fileID: -4365705379333180063}
     - {fileID: 6895765121138707507}
     - {fileID: 7339275860726316074}
     - {fileID: -5180420815533215654}
-    - {fileID: -836177638223944379}
     - {fileID: -1269028761046338689}
     - {fileID: 964350917563319550}
-    - {fileID: 4292944635004527826}
     - {fileID: -5579944511825457149}
-    - {fileID: -627497544689496641}
     - {fileID: -1458835375435054507}
-    - {fileID: -9182185024245928209}
     - {fileID: -7196550533654608790}
-    - {fileID: -3036911979456702946}
     - {fileID: 4610576959975114006}
-    - {fileID: -4914362076586264749}
     - {fileID: 3332563983649811851}
-    - {fileID: 8649540033100846653}
-    - {fileID: 2859387976365494372}
     - {fileID: 6484146368685252493}
-    - {fileID: 6851886864487712610}
     - {fileID: -7675582809694641941}
-    - {fileID: -2620173695275869508}
-    - {fileID: 5663164709884198607}
     - {fileID: 2699690523103645179}
-    - {fileID: 7126755405653685716}
     - {fileID: -395324675119592626}
-    - {fileID: -5846821093921091008}
     - {fileID: 7346495244619749950}
-    - {fileID: 2302768870053862312}
     - {fileID: -8177163839621863809}
     - {fileID: -6326651118198937654}
     - {fileID: 861684209962030140}
     - {fileID: 9127557124583756048}
     - {fileID: -9049486794553831642}
-    - {fileID: 7234160242481316090}
-    - {fileID: -2552995188050964238}
-    - {fileID: -1142274012621040366}
-    - {fileID: -4852202825689600210}
-    - {fileID: -3143131179978816848}
-    - {fileID: -6178942225766665603}
-    - {fileID: 2582363415589464575}
-    - {fileID: 7068302785549355664}
-    - {fileID: 7187991186635880884}
-    - {fileID: -4403680476283679535}
-    - {fileID: 8905088047440225016}
-    - {fileID: 556196919260326164}
-    - {fileID: -2447655470130399315}
-    - {fileID: 6083264314265173168}
-    - {fileID: 8676850187271633128}
-    - {fileID: 8140715064174551002}
-    - {fileID: 5663877553874329320}
-    - {fileID: 2649978939052997092}
-    - {fileID: 8890350587628879137}
-    - {fileID: -3516964658411077212}
     - {fileID: 538751236956567216}
-    - {fileID: -1921518931226399226}
     - {fileID: 3421488948315422399}
-    - {fileID: 728867618882786470}
-    - {fileID: -6219604287617690250}
     - {fileID: 7350412877945424632}
-    - {fileID: 4822037713355953246}
     - {fileID: 6925302171127905348}
-    - {fileID: 594769205547906146}
     - {fileID: -4911111917353433329}
     - {fileID: -5677195845798756703}
-    - {fileID: -2208578959646933233}
     - {fileID: -5619620473159673870}
-    - {fileID: 3187481135708090125}
     - {fileID: 8932952574197615346}
     - {fileID: 1782320977852490302}
+    - {fileID: 5323467869710681063}
+    - {fileID: 1157308866016174952}
+    - {fileID: 5010022218938128945}
+    - {fileID: -1103346994408154217}
+    - {fileID: -1144285734785679133}
+    - {fileID: -1745077266084703335}
+    - {fileID: -3735128719432823652}
+    - {fileID: -3171158945866197240}
+    - {fileID: 1920674919334321842}
+    - {fileID: 9123711540284847500}
+    - {fileID: 8333553322324786303}
+    - {fileID: -6368740139462249728}
   m_PostPlaybackState: 3
 --- !u!114 &-6382105663746558888
 MonoBehaviour:
@@ -1517,6 +1069,31 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
+--- !u!114 &-6368740139462249728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 124.7
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 0
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 1
+    gripLong: 1
 --- !u!114 &-6326651118198937654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1542,56 +1119,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 2
---- !u!114 &-6270990797708491037
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 63.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-6268595089813185141
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 75.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-6240954536619023553
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1616,56 +1143,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 0
-    gripLong: 1
---- !u!114 &-6219604287617690250
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 173
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-6178942225766665603
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 133
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
     gripLong: 1
 --- !u!114 &-6130532113324575220
 MonoBehaviour:
@@ -1692,31 +1169,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &-6119593783406546757
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 14
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-6079999765956104749
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1741,56 +1193,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 2
-    gripLong: 1
---- !u!114 &-5956705712479915291
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 14.666666666666664
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &-5846821093921091008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 93
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
     gripLong: 1
 --- !u!114 &-5766390338667410780
 MonoBehaviour:
@@ -1835,31 +1237,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-5634679606619098224
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 121.26667
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -1992,56 +1369,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-5505296613291793061
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 9
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 3
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &-5319145609332345743
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 4
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-5180420815533215654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2117,31 +1444,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-5110724754364965102
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 179
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-5028617341629864056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2160,81 +1462,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-5006760296057281539
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 144.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-4963109580806810397
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 155
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-4914362076586264749
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 74
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -2292,7 +1519,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-4866486178594296428
+--- !u!114 &-4829522584696577633
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2304,57 +1531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 125
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-4852202825689600210
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 127
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-4716247733572489775
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 123
+  m_Time: 117.95
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -2366,31 +1543,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 1
-    gripLong: 1
---- !u!114 &-4679356352194317789
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 164.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
     gripLong: 1
 --- !u!114 &-4661806256419243428
 MonoBehaviour:
@@ -2467,31 +1619,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-4403680476283679535
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 145
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-4365705379333180063
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2517,7 +1644,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-4334809612412030977
+--- !u!114 &-3974587620117125687
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2529,7 +1656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 134
+  m_Time: 144.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -2540,57 +1667,7 @@ MonoBehaviour:
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &-4192428954685963429
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 184
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-3968357743581640777
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 84
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
+    twinLane: 2
     gripLong: 1
 --- !u!114 &-3942390090283518603
 MonoBehaviour:
@@ -2642,31 +1719,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-3796044943565374049
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 124
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-3775867443039212968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2692,7 +1744,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-3718788144828048254
+--- !u!114 &-3735128719432823652
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2704,18 +1756,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 130
+  m_Time: 146.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
+    twinLane: 2
     gripLong: 1
 --- !u!114 &-3674000927709655404
 MonoBehaviour:
@@ -2758,7 +1810,7 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 0}
---- !u!114 &-3516964658411077212
+--- !u!114 &-3532494681153801341
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2770,37 +1822,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 162.51666666666665
+  m_Time: 136.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-3513779826787517501
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 6
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
+    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -2820,31 +1847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
---- !u!114 &-3435390695521405108
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 44
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-3398327401585416343
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2920,7 +1922,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &-3219415613047776200
+--- !u!114 &-3171158945866197240
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2932,62 +1934,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 31
+  m_Time: 149.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
     colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &-3143131179978816848
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 131
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-3130320813927356240
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 59
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -3088,167 +2040,41 @@ MonoBehaviour:
   m_Markers:
     m_Objects:
     - {fileID: 4168894049867919027}
-    - {fileID: -5319145609332345743}
-    - {fileID: -3513779826787517501}
-    - {fileID: 3344260848107546642}
-    - {fileID: -5505296613291793061}
-    - {fileID: 4917451560383818466}
-    - {fileID: -7976313609032448660}
-    - {fileID: -5956705712479915291}
-    - {fileID: 1980898245487208291}
-    - {fileID: -9001082154193904901}
-    - {fileID: 1346324632252528798}
-    - {fileID: -1202117833515066161}
-    - {fileID: 5085977062525894965}
-    - {fileID: -9149349981745009652}
-    - {fileID: -3219415613047776200}
-    - {fileID: 4650069234493593081}
-    - {fileID: 7225777273089597060}
-    - {fileID: 597376419666002175}
-    - {fileID: 5807822041309933769}
-    - {fileID: -2772654723612267933}
-    - {fileID: 1010305241530315611}
-    - {fileID: -2034124309143775364}
-    - {fileID: -3435390695521405108}
-    - {fileID: -8380451979817441114}
-    - {fileID: -7790133677319784631}
     - {fileID: 8609329059098004879}
-    - {fileID: 9009611446672585248}
-    - {fileID: 7388490858498911817}
-    - {fileID: 2351637151613461518}
     - {fileID: 7274749054241230506}
-    - {fileID: -3130320813927356240}
-    - {fileID: 6342521878870717124}
-    - {fileID: -702597840653793039}
     - {fileID: 181815272816432758}
-    - {fileID: -2665200935560590756}
-    - {fileID: -6270990797708491037}
-    - {fileID: 3999611370678089031}
     - {fileID: 7587838551626906046}
-    - {fileID: 8513610717724768130}
-    - {fileID: 2885209130246751751}
     - {fileID: 4697959501085639429}
-    - {fileID: -1381404393864498925}
     - {fileID: 8482540934917706213}
-    - {fileID: 2326291706450992368}
-    - {fileID: -2387816938886587449}
     - {fileID: -6130532113324575220}
-    - {fileID: 2868318860871763299}
     - {fileID: -1541750816407283385}
-    - {fileID: -3968357743581640777}
     - {fileID: -2895734786681812811}
-    - {fileID: -4426776279859061962}
     - {fileID: 4522641725416024239}
-    - {fileID: 4085208640708203794}
-    - {fileID: -6699798362765128617}
     - {fileID: 3421814000136189331}
-    - {fileID: 1881563191974843572}
     - {fileID: -9027753796229351558}
-    - {fileID: 6611890568752138821}
     - {fileID: 522014424107218757}
     - {fileID: 3367920019809167492}
     - {fileID: 1218449395291562103}
-    - {fileID: -2978769439779750656}
     - {fileID: -6079999765956104749}
-    - {fileID: 4700225760202995800}
-    - {fileID: -5634679606619098224}
-    - {fileID: -9192952825360015164}
-    - {fileID: -4716247733572489775}
-    - {fileID: -3796044943565374049}
-    - {fileID: -4866486178594296428}
-    - {fileID: 7876802680929349985}
-    - {fileID: 7975516156673147924}
-    - {fileID: 7348681738565852201}
-    - {fileID: 1160622631627577513}
-    - {fileID: -4334809612412030977}
-    - {fileID: 2628632809532637354}
-    - {fileID: -7603416055768293774}
-    - {fileID: -8424995584578932945}
-    - {fileID: 2693911437790100002}
-    - {fileID: -1753698998024095384}
-    - {fileID: 5701841220234611932}
-    - {fileID: -5006760296057281539}
-    - {fileID: -8327250382603155706}
-    - {fileID: -2789581720563770189}
-    - {fileID: -6857174038053311949}
-    - {fileID: 7671706338884678420}
-    - {fileID: 7870635555206914610}
-    - {fileID: -9217730580590621339}
-    - {fileID: 8685573572632652001}
-    - {fileID: 3474145975736990317}
-    - {fileID: -9113766310982432196}
-    - {fileID: 6841005667591407492}
-    - {fileID: -8034039181379155909}
-    - {fileID: 1059915493044668134}
-    - {fileID: -9148761733748475781}
     - {fileID: 1958343941366837930}
-    - {fileID: 5347587242273718386}
-    - {fileID: -326010941680187639}
-    - {fileID: -8559915451142757146}
     - {fileID: 8894421765213880396}
-    - {fileID: -7831554344969720229}
     - {fileID: -2125158346947850234}
     - {fileID: 5213578566432662515}
-    - {fileID: -6862047860713614068}
     - {fileID: -4661806256419243428}
-    - {fileID: 131855413068055629}
     - {fileID: 2902651151864055624}
-    - {fileID: -4192428954685963429}
     - {fileID: 848470373256589546}
     - {fileID: -7038397559193566722}
     - {fileID: -1274758860479676165}
-    - {fileID: 653886650036905499}
+    - {fileID: 3209481478331355140}
+    - {fileID: -1399583605795586168}
+    - {fileID: -3532494681153801341}
+    - {fileID: -6868032473015527138}
+    - {fileID: -3974587620117125687}
+    - {fileID: -7122907850200891919}
+    - {fileID: 8626928625235611594}
+    - {fileID: 2839815434621817274}
+    - {fileID: 5386769968228143196}
   m_PostPlaybackState: 3
---- !u!114 &-3036911979456702946
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 71
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2978769439779750656
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 115
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
 --- !u!114 &-2895734786681812811
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3299,7 +2125,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 0
     gripLong: 1
---- !u!114 &-2789581720563770189
+--- !u!114 &-2825795686959973485
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3311,112 +2137,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 146.5
+  m_Time: 141.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2772654723612267933
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 40
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2665200935560590756
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 63
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2620173695275869508
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 168
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2552995188050964238
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 123
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -3448,6 +2174,31 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 2
+    gripLong: 1
+--- !u!114 &-2535368778078454968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 129.5333333333333
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 1
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 1
     gripLong: 1
 --- !u!114 &-2497207616337819152
 MonoBehaviour:
@@ -3492,56 +2243,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 3
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2447655470130399315
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 149.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2387816938886587449
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 78
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -3599,56 +2300,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-2276731590673232892
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 34
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2208578959646933233
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 184.81666666666666
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-2125158346947850234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3662,31 +2313,6 @@ MonoBehaviour:
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
   m_Time: 174.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2034124309143775364
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 43
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -3724,81 +2350,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-1995952761828340156
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 39
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-1921518931226399226
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 162
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-1914538488899240899
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 158.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-1856299016348518185
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3824,7 +2375,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-1753698998024095384
+--- !u!114 &-1745077266084703335
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3836,12 +2387,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 142.5
+  m_Time: 143.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -3899,31 +2450,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 2
---- !u!114 &-1556513074737805479
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 169.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-1541750816407283385
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3974,31 +2500,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-1465256822584352447
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 143
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-1458835375435054507
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4024,7 +2525,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-1381404393864498925
+--- !u!114 &-1399583605795586168
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4036,12 +2537,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 72
+  m_Time: 132.5166666666667
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 0
+    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -4124,7 +2625,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-1202117833515066161
+--- !u!114 &-1144285734785679133
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4136,37 +2637,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 16
+  m_Time: 139.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &-1142274012621040366
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 124
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
+    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -4174,7 +2650,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-1088878349792177272
+--- !u!114 &-1103346994408154217
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4186,7 +2662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 4
+  m_Time: 135.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -4236,31 +2712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde0d25a170598d46a0b9dc16b4527a5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
---- !u!114 &-836177638223944379
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 56
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-781558180157847236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4285,56 +2736,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 0
-    gripLong: 1
---- !u!114 &-702597840653793039
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 61
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-627497544689496641
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 64
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
     gripLong: 1
 --- !u!114 &-591817368936816213
 MonoBehaviour:
@@ -4423,31 +2824,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &-326010941680187639
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 166
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-238578392458872163
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4510,12 +2886,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 118
+  m_Time: 122.63333333333334
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 4
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -4590,81 +2966,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &77425715106293524
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 84.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &99641171226046248
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 158
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &131855413068055629
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 181
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -4838,156 +3139,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &556196919260326164
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 149
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &594769205547906146
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 180
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &597376419666002175
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 38
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &653886650036905499
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 203.15
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 3
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 2
---- !u!114 &728867618882786470
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 183
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &846570800415595469
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 151.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &848470373256589546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5088,7 +3239,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &1000297111252237870
+--- !u!114 &1157308866016174952
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5100,87 +3251,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 161.03333333333333
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &1010305241530315611
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 42
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &1059915493044668134
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 160
+  m_Time: 127.01666666666667
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
     colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &1160622631627577513
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 132
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -5263,31 +3339,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &1346324632252528798
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 36.26667
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &1577383913167559930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5354,7 +3405,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 2
---- !u!114 &1881563191974843572
+--- !u!114 &1920674919334321842
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5366,37 +3417,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 96
+  m_Time: 152.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
     colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &1915542221240671294
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 58
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -5429,31 +3455,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 0
     gripLong: 1
---- !u!114 &1980898245487208291
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 19
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &2155785873045317282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5467,106 +3468,6 @@ MonoBehaviour:
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
   m_Time: 182
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2302768870053862312
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 99
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2326291706450992368
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 75
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2351637151613461518
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 55.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2434359199688338297
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 82
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -5620,81 +3521,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &2582363415589464575
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 137
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2628632809532637354
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 138
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &2649978939052997092
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 159
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &2676407616228987893
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5712,7 +3538,7 @@ MonoBehaviour:
   m_Locked: 0
   m_Muted: 0
   m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 6754733912584578446}
+  m_Curves: {fileID: -8255317818831132544}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
@@ -5798,31 +3624,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &2693911437790100002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 142
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &2699690523103645179
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5848,7 +3649,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &2859387976365494372
+--- !u!114 &2839815434621817274
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5860,68 +3661,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 77
+  m_Time: 156.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2868318860871763299
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 81
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &2885209130246751751
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 69
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
+    twinLane: 0
     gripLong: 1
 --- !u!114 &2902651151864055624
 MonoBehaviour:
@@ -5948,7 +3699,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 0
     gripLong: 1
---- !u!114 &2960466847056261410
+--- !u!114 &3005600632008167865
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5960,12 +3711,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 79
+  m_Time: 157.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -5973,7 +3724,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &3187481135708090125
+--- !u!114 &3209481478331355140
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5985,43 +3736,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 186.95
+  m_Time: 128.01666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 0
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &3228338391924569706
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 139.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
+    twinLane: 2
     gripLong: 1
 --- !u!114 &3262208608312752519
 MonoBehaviour:
@@ -6048,6 +3774,31 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
+--- !u!114 &3285302253928008292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 133.5333333333333
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 1
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 1
+    gripLong: 1
 --- !u!114 &3332563983649811851
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6066,31 +3817,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &3344260848107546642
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 8
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -6198,31 +3924,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &3474145975736990317
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 154
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &3598906392125206959
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6248,31 +3949,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 2
---- !u!114 &3712637682269913184
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 139
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &3792636304075474878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6371,56 +4047,6 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &3999611370678089031
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 65
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &4085208640708203794
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 93
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &4168894049867919027
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6439,31 +4065,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &4292944635004527826
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 60
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -6546,31 +4147,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &4538008064454493358
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 27
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 4
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &4610576959975114006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6589,31 +4165,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &4650069234493593081
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 34
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -6663,56 +4214,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &4700225760202995800
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 119
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &4822037713355953246
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 177
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &4901275728650946314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6738,7 +4239,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &4909942888851615290
+--- !u!114 &4959647017527782731
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6750,82 +4251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 126
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &4917451560383818466
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 10
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &5038673737331726953
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 62
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &5085977062525894965
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 29
+  m_Time: 151.04999999999995
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -6837,6 +4263,31 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 0
+    gripLong: 1
+--- !u!114 &5010022218938128945
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 131.5333333333333
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 1
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 1
     gripLong: 1
 --- !u!114 &5182208587596045771
 MonoBehaviour:
@@ -6913,7 +4364,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 2
---- !u!114 &5347587242273718386
+--- !u!114 &5323467869710681063
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6925,18 +4376,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 163
+  m_Time: 158.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
     twinLane: 1
+    gripLong: 1
+--- !u!114 &5386769968228143196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 164.1
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 2
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 0
     gripLong: 1
 --- !u!114 &5419308652103522604
 MonoBehaviour:
@@ -6988,7 +4464,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &5526472059503926452
+--- !u!114 &5508784799108921262
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7000,137 +4476,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 160.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &5663164709884198607
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 165
+  m_Time: 137.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &5663877553874329320
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 156.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &5701841220234611932
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 144
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &5807822041309933769
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 39
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &5867805893596361532
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 66
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -7163,7 +4514,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &6083264314265173168
+--- !u!114 &6250866995240946622
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7175,68 +4526,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 153
+  m_Time: 203.15
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 0
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &6217854356619548465
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 182
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &6342521878870717124
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 59.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
+    twinLane: 0
     gripLong: 1
 --- !u!114 &6484146368685252493
 MonoBehaviour:
@@ -7288,7 +4589,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &6611890568752138821
+--- !u!114 &6559810959572997582
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7300,62 +4601,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 101
+  m_Time: 162.25
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
---- !u!114 &6721200723406938695
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 7
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &6730362132747972992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 147.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
+    colorSide: 4
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -7376,162 +4627,6 @@ MonoBehaviour:
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
   m_Time: 557.9474282993204
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!74 &6754733912584578446
-AnimationClip:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AudioTrack
-  serializedVersion: 7
-  m_Legacy: 1
-  m_Compressed: 0
-  m_UseHighQualityCurve: 1
-  m_RotationCurves: []
-  m_CompressedRotationCurves: []
-  m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves:
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.1
-        value: 0.1
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: volume
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
-    flags: 0
-  m_PPtrCurves: []
-  m_SampleRate: 60
-  m_WrapMode: 0
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
-  m_AnimationClipSettings:
-    serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
-    m_StartTime: 0
-    m_StopTime: 0.1
-    m_OrientationOffsetY: 0
-    m_Level: 0
-    m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
-    m_LoopBlendOrientation: 0
-    m_LoopBlendPositionY: 0
-    m_LoopBlendPositionXZ: 0
-    m_KeepOriginalOrientation: 0
-    m_KeepOriginalPositionY: 1
-    m_KeepOriginalPositionXZ: 0
-    m_HeightFromFeet: 0
-    m_Mirror: 0
-  m_EditorCurves: []
-  m_EulerEditorCurves: []
-  m_HasGenericRootTransform: 0
-  m_HasMotionFloatCurves: 0
-  m_Events: []
---- !u!114 &6841005667591407492
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 157
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &6841822020908788824
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 155.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 0
-    gripLong: 1
---- !u!114 &6851886864487712610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 80
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -7644,56 +4739,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &7044870594306802788
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 185.86666666666667
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7068302785549355664
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 141
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &7070176437499529700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7744,31 +4789,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &7126755405653685716
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 87
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 2
-    gripLong: 1
 --- !u!114 &7180098779249477103
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7787,81 +4807,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7187991186635880884
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 141.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7225777273089597060
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 37
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7234160242481316090
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 119
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -7944,31 +4889,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &7348681738565852201
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 129
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &7350412877945424632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7987,31 +4907,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7388490858498911817
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 57
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -8107,81 +5002,6 @@ MonoBehaviour:
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
   m_Time: 65.5
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7608308684590681377
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 175
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7628838407328372512
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 99
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7671706338884678420
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 148.5
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -8311,78 +5131,51 @@ MonoBehaviour:
     m_DisplayName: Active
   m_Markers:
     m_Objects:
-    - {fileID: -1088878349792177272}
     - {fileID: -8162650365026503489}
     - {fileID: -230044070092442655}
-    - {fileID: -7097198074595797043}
     - {fileID: 3262208608312752519}
     - {fileID: -7250861209122643528}
     - {fileID: 2553965963406991845}
     - {fileID: -2028632427008503366}
     - {fileID: 8714049962964053963}
     - {fileID: -2349616781639469463}
-    - {fileID: -9208749167809423595}
     - {fileID: -1036759344958705045}
     - {fileID: -5632919240356909869}
-    - {fileID: 1915542221240671294}
-    - {fileID: 5038673737331726953}
     - {fileID: -6618680758688807439}
-    - {fileID: 5867805893596361532}
     - {fileID: -8269565135595327870}
-    - {fileID: 7800405420181404918}
     - {fileID: 7971725304380371485}
-    - {fileID: -6663926403114944847}
     - {fileID: -5028617341629864056}
-    - {fileID: -6268595089813185141}
     - {fileID: -2871817868259209212}
-    - {fileID: 2960466847056261410}
     - {fileID: -4551267987124659917}
-    - {fileID: 2434359199688338297}
     - {fileID: -5588262957563318907}
-    - {fileID: 77425715106293524}
     - {fileID: 341465830705715672}
-    - {fileID: 8683426928054299395}
     - {fileID: 4455853993135464310}
     - {fileID: 8547037161349846364}
-    - {fileID: 7628838407328372512}
     - {fileID: -591817368936816213}
     - {fileID: -6899414273122276954}
     - {fileID: -220166144286770905}
-    - {fileID: 4909942888851615290}
-    - {fileID: -3718788144828048254}
-    - {fileID: 7848586421999286457}
-    - {fileID: 3712637682269913184}
-    - {fileID: 3228338391924569706}
-    - {fileID: -1465256822584352447}
-    - {fileID: 8180409689026706162}
-    - {fileID: -7912959067490322511}
-    - {fileID: 6730362132747972992}
-    - {fileID: -7960890143410402264}
-    - {fileID: 846570800415595469}
-    - {fileID: -4963109580806810397}
-    - {fileID: 6841822020908788824}
-    - {fileID: 99641171226046248}
-    - {fileID: -1914538488899240899}
-    - {fileID: 5526472059503926452}
-    - {fileID: 1000297111252237870}
-    - {fileID: -4679356352194317789}
     - {fileID: 7070176437499529700}
     - {fileID: -6382105663746558888}
-    - {fileID: -7803883743279440201}
-    - {fileID: 8102314999568129346}
-    - {fileID: -1556513074737805479}
-    - {fileID: 7608308684590681377}
     - {fileID: -3775867443039212968}
-    - {fileID: -5110724754364965102}
     - {fileID: -781558180157847236}
-    - {fileID: 6217854356619548465}
     - {fileID: -1856299016348518185}
-    - {fileID: 7044870594306802788}
     - {fileID: -7933984753486161414}
     - {fileID: -3398327401585416343}
     - {fileID: -1730106962194959341}
+    - {fileID: -2535368778078454968}
+    - {fileID: 3285302253928008292}
+    - {fileID: 5508784799108921262}
+    - {fileID: -2825795686959973485}
+    - {fileID: 7778011148471875075}
+    - {fileID: -8396330955320192575}
+    - {fileID: 4959647017527782731}
+    - {fileID: -8611658742944895402}
+    - {fileID: 3005600632008167865}
+    - {fileID: 6559810959572997582}
+    - {fileID: -4829522584696577633}
+    - {fileID: 6250866995240946622}
   m_PostPlaybackState: 3
---- !u!114 &7800405420181404918
+--- !u!114 &7778011148471875075
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8394,93 +5187,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 70
+  m_Time: 145.5333333333333
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 0
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7848586421999286457
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 135
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 4
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 2
---- !u!114 &7870635555206914610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 150
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &7876802680929349985
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 127
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
+    twinLane: 0
     gripLong: 1
 --- !u!114 &7932443530269208981
 MonoBehaviour:
@@ -8532,31 +5250,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 0
     gripLong: 1
---- !u!114 &7975516156673147924
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 128
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &8092385100659991499
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8570,81 +5263,6 @@ MonoBehaviour:
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
   m_Time: 1
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &8102314999568129346
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 167
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &8140715064174551002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 156
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &8180409689026706162
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 143.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
@@ -8682,6 +5300,31 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
+--- !u!114 &8333553322324786303
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 160.38333333333333
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 3
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 1
+    gripLong: 1
 --- !u!114 &8482540934917706213
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8706,31 +5349,6 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 0
-    gripLong: 1
---- !u!114 &8513610717724768130
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 67
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 3
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
     gripLong: 1
 --- !u!114 &8547037161349846364
 MonoBehaviour:
@@ -8782,7 +5400,7 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &8649540033100846653
+--- !u!114 &8626928625235611594
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8794,18 +5412,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
   m_Name: VR_Beat Spawn Marker
   m_EditorClassIdentifier: 
-  m_Time: 83
+  m_Time: 153.51666666666665
   spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
     type: 3}
   spawInfo:
     hitDirection: 1
-    colorSide: 1
+    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
     speed: 2
     speedMultiplier: 1
-    twinLane: 1
+    twinLane: 2
     gripLong: 1
 --- !u!114 &8672175953975711525
 MonoBehaviour:
@@ -8832,81 +5450,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &8676850187271633128
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 153.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &8683426928054299395
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 89
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &8685573572632652001
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 152
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 3
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &8714049962964053963
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8925,31 +5468,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &8890350587628879137
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 159.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 2
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -8982,31 +5500,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 2
---- !u!114 &8905088047440225016
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 145.51666666666665
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &8932952574197615346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9057,31 +5550,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &9009611446672585248
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 55
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &9074057108974238613
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9106,6 +5574,31 @@ MonoBehaviour:
     speed: 2
     speedMultiplier: 1
     twinLane: 1
+    gripLong: 1
+--- !u!114 &9123711540284847500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
+  m_Name: VR_Beat Spawn Marker
+  m_EditorClassIdentifier: 
+  m_Time: 155.5333333333333
+  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
+    type: 3}
+  spawInfo:
+    hitDirection: 1
+    colorSide: 2
+    useSpark: 1
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    speed: 2
+    speedMultiplier: 1
+    twinLane: 2
     gripLong: 1
 --- !u!114 &9127557124583756048
 MonoBehaviour:
