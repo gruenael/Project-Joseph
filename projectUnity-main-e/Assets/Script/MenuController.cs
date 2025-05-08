@@ -54,12 +54,7 @@ public class MenuController : MonoBehaviour
 
     private void Update()
     {
-        playButton.interactable = selectedMusicData != null;
-
-        if(selectedMusicData != null){
-            Debug.Log("Not Null");
-        };
-        
+        playButton.interactable = selectedMusicData != null;        
     }
 
     public void SelectSong(MusicData data)
