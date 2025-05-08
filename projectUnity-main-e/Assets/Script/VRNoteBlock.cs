@@ -38,6 +38,10 @@ public class VRNoteBlock : Note
 
     public Material gripBlockMaterial;
 
+    [Header("SFX")] // Michael add
+    public AudioClip hitClip; // Michael add
+    public float hitClipVolumeScale = 15f; // Michael add
+
     [Header("Grip")]
     public GameObject gripEnd;
 
@@ -138,6 +142,11 @@ public class VRNoteBlock : Note
             return;
         colliding = true;
 
+        // Michael add, check what the hand collide with
+        Debug.Log("Colliding with " + gameObject.name);
+        
+        PlaySFX(hitClip); // Michael add
+
         StartCoroutine(IE_Destroy(collision));
     }
 
@@ -148,6 +157,15 @@ public class VRNoteBlock : Note
 
         colliding = false;
 
+    }
+
+    // Michael add, play sfx
+    public void PlaySFX(AudioClip clip)
+    {
+        if (clip != null && gameObject.GetComponent<AudioSource>() != null)
+        {
+            gameObject.GetComponent<AudioSource>().PlayOneShot(clip, PlayerPrefs.GetFloat("sfxVolume") / hitClipVolumeScale);
+        }
     }
 
     // Michael add, bool parameter

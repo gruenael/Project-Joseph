@@ -60,6 +60,7 @@ public class ReleaseGripBlock : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         isReleased = false;
+        noteScript.PlaySFX(noteScript.hitClip);
     }
 }
 

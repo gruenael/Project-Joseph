@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class SliderManager : MonoBehaviour
 {
     [SerializeField] Slider volumeSlider;
+    [SerializeField] string prefsKey;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (!PlayerPrefs.HasKey("musicVolume")) {
-            PlayerPrefs.SetFloat("musicVolume", 1f);
+        if (!PlayerPrefs.HasKey(prefsKey)) {
+            PlayerPrefs.SetFloat(prefsKey, 1f);
             Load();
         } else {
             Load();
@@ -20,22 +21,17 @@ public class SliderManager : MonoBehaviour
 
     void Update()
     {
-        if (volumeSlider.value != PlayerPrefs.GetFloat("musicVolume")) {
+        if (volumeSlider.value != PlayerPrefs.GetFloat(prefsKey)) {
             Save();
         }
     
     }
 
-    public void ChangeVolume() {
-        AudioListener.volume = volumeSlider.value;
-        Save();
-    }
-
     private void Load() {
-        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
+        volumeSlider.value = PlayerPrefs.GetFloat(prefsKey);
     }
 
     private void Save() {
-        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
+        PlayerPrefs.SetFloat(prefsKey, volumeSlider.value);
     }
 }
