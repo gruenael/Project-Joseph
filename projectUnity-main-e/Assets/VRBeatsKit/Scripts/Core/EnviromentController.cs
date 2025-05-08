@@ -60,6 +60,7 @@ namespace VRBeats
                     enviromentMaterialBindings.SetEmmisiveColor(c);
             }).SetEase(ease);
         }
+        
 
     }
 }

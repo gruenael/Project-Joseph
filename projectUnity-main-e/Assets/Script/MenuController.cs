@@ -20,6 +20,7 @@ public class MenuController : MonoBehaviour
         public float noteSpeed;
         public float noteSpawnTime;
         public TimelineAsset musicAssets;
+        public AudioClip previewClip;
     }
 
     // Start is called before the first frame update
@@ -32,7 +33,7 @@ public class MenuController : MonoBehaviour
     public Button playButton;
     public Button RestartButton;
     public GameObject canvasMenu;
-
+    public AudioSource previewSource;
     public MusicData selectedMusicData = null;
     public List<GameObject> musicRows;
 
@@ -53,25 +54,29 @@ public class MenuController : MonoBehaviour
 
     private void Update()
     {
-        playButton.interactable = selectedMusicData != null;
+        playButton.interactable = selectedMusicData != null;        
     }
 
     public void SelectSong(MusicData data)
-    {
-        foreach (var item in musicRows) 
-        { 
-            if(data == item.GetComponent<MusicRow>().musicData)
-            {
-                item.GetComponent<CanvasGroup>().alpha = 0.9f;
-                selectedMusicData = data;
-            }
-            else
-            {
-                item.GetComponent<CanvasGroup>().alpha = 0.7f;
-            }
+{
+    foreach (var item in musicRows) 
+    { 
+        if(data == item.GetComponent<MusicRow>().musicData)
+        {
+            item.GetComponent<CanvasGroup>().alpha = 0.9f;
+            selectedMusicData = data;
+
+            // 🔊 Play the preview
+            PlayPreview(selectedMusicData);
 
         }
+        else
+        {
+            item.GetComponent<CanvasGroup>().alpha = 0.7f;
+        }
     }
+}
+
 
     public void RestartGame(){
         FindObjectOfType<BeatManager>().noteSpawnTime = selectedMusicData.noteSpawnTime;
@@ -82,7 +87,10 @@ public class MenuController : MonoBehaviour
     }
 
     public void PlayGame()
-    {
+    {   
+        if (previewSource.isPlaying)
+            previewSource.Stop();
+
         Time.timeScale = 1f;
         if (selectedMusicData.musicAssets == null)
             return;
@@ -96,9 +104,73 @@ public class MenuController : MonoBehaviour
     {
         Application.Quit();
     }
-    
-    public void Option()
+
+    public void PlayPreview(MusicData data)
+{
+    if (data != null && data.previewClip != null && previewSource != null)
     {
-        
+        if (previewSource.isPlaying)
+        {
+            if (fadeCoroutine != null)
+                StopCoroutine(fadeCoroutine);
+
+            fadeCoroutine = StartCoroutine(FadeOutAndPlayNew(previewSource, data.previewClip));
+        }
+        else
+        {
+            previewSource.clip = data.previewClip;
+            previewSource.Play();
+        }
     }
+    else
+    {
+        Debug.LogWarning("Missing data, preview clip, or preview source.");
+    }
+}
+
+
+    public void StopPreview(float fadeDuration = 1f)
+{
+    if (previewSource != null && previewSource.isPlaying)
+    {
+        if (fadeCoroutine != null)
+            StopCoroutine(fadeCoroutine);
+
+        fadeCoroutine = StartCoroutine(FadeOut(previewSource, fadeDuration));
+    }
+}
+
+private Coroutine fadeCoroutine;
+
+IEnumerator FadeOut(AudioSource previewSource, float duration = 1f)
+{
+    float startVolume = previewSource.volume;
+
+    while (previewSource.volume > 0f)
+    {
+        previewSource.volume -= startVolume * Time.unscaledDeltaTime / duration;
+        yield return null;
+    }
+
+    previewSource.Stop();
+    previewSource.volume = startVolume; // Reset volume
+}
+
+IEnumerator FadeOutAndPlayNew(AudioSource previewSource, AudioClip newClip, float fadeDuration = 1f)
+{
+    float startVolume = previewSource.volume;
+
+    while (previewSource.volume > 0f)
+    {
+        previewSource.volume -= startVolume * Time.unscaledDeltaTime / fadeDuration;
+        yield return null;
+    }
+
+    previewSource.Stop();
+    previewSource.volume = startVolume;
+
+    previewSource.clip = newClip;
+    previewSource.Play();
+}
+
 }
