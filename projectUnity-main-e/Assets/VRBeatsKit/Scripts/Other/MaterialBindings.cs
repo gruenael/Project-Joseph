@@ -56,5 +56,7 @@ namespace VRBeats
                 renderArray[n].material.SetInt(binding, v);
             }
         }
+        
     }
+    
 }

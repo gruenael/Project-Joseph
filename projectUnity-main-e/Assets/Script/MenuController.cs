@@ -20,6 +20,7 @@ public class MenuController : MonoBehaviour
         public float noteSpeed;
         public float noteSpawnTime;
         public TimelineAsset musicAssets;
+        public AudioClip previewClip;
     }
 
     // Start is called before the first frame update
@@ -54,6 +55,7 @@ public class MenuController : MonoBehaviour
     private void Update()
     {
         playButton.interactable = selectedMusicData != null;
+        
     }
 
     public void SelectSong(MusicData data)
@@ -96,9 +98,5 @@ public class MenuController : MonoBehaviour
     {
         Application.Quit();
     }
-    
-    public void Option()
-    {
-        
-    }
+
 }
