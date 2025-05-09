@@ -25,10 +25,15 @@ public class RainbowGlowEmission : MonoBehaviour
     };
 
     private void Start()
+{
+    if (glowMaterial != null)
     {
-        // Initialize with first color
+        glowMaterial = new Material(glowMaterial); // Clone it
+        GetComponent<Renderer>().material = glowMaterial;
         glowMaterial.SetColor(emissionColorProperty, rainbowColors[0] * emissionIntensity);
     }
+}
+
 
     private void Update()
     {
@@ -64,14 +69,5 @@ public class RainbowGlowEmission : MonoBehaviour
     public void SetIntensity(float newIntensity)
     {
         emissionIntensity = Mathf.Max(0, newIntensity);
-    }
-
-    private void OnDestroy()
-    {
-        // Reset material when this object is destroyed
-        if (glowMaterial != null)
-        {
-            glowMaterial.SetColor(emissionColorProperty, Color.black);
-        }
     }
 }
