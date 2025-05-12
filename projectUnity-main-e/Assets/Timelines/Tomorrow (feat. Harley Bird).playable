@@ -2284,7 +2284,6 @@ MonoBehaviour:
     - {fileID: -2089300351864735184}
     - {fileID: 5803919915182486801}
     - {fileID: -8055869472956495480}
-    - {fileID: -2499281051620547260}
     - {fileID: -1583836322476948194}
     - {fileID: -1159196778355101508}
     - {fileID: -4583289718577889251}
@@ -4837,7 +4836,6 @@ MonoBehaviour:
     - {fileID: -8822447762846818876}
     - {fileID: 483158866977013238}
     - {fileID: 4895248428688217858}
-    - {fileID: 2907551612945628629}
     - {fileID: -1920646859008798194}
     - {fileID: 8675823913122060668}
     - {fileID: 6264552578022830476}
@@ -5326,31 +5324,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 2
     gripLong: 1
---- !u!114 &-2618620361230189039
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 58.48333333333335
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &-2562123976601432496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5419,31 +5392,6 @@ MonoBehaviour:
   spawInfo:
     hitDirection: 1
     colorSide: 1
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
---- !u!114 &-2499281051620547260
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 59.94999999999999
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
     useSpark: 1
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0}
@@ -9943,31 +9891,6 @@ MonoBehaviour:
     speedMultiplier: 1
     twinLane: 1
     gripLong: 1
---- !u!114 &2907551612945628629
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff600427e566994ea055d6ca03533ef, type: 3}
-  m_Name: VR_Beat Spawn Marker
-  m_EditorClassIdentifier: 
-  m_Time: 59.45000000000002
-  spawneable: {fileID: 6530454477309525408, guid: 43321b3f2810f144e9a222a82ebe8701,
-    type: 3}
-  spawInfo:
-    hitDirection: 1
-    colorSide: 0
-    useSpark: 1
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    speed: 2
-    speedMultiplier: 1
-    twinLane: 1
-    gripLong: 1
 --- !u!114 &2917616894969604289
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11114,8 +11037,8 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.3
-        value: 0.3
+        time: 0.8
+        value: 0.8
         inSlope: 1
         outSlope: 0
         tangentMode: 0
@@ -11144,7 +11067,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.3
+    m_StopTime: 0.8
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -11174,8 +11097,8 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.3
-        value: 0.3
+        time: 0.8
+        value: 0.8
         inSlope: 1
         outSlope: 0
         tangentMode: 0
@@ -14586,7 +14509,6 @@ MonoBehaviour:
     - {fileID: 8523448902808466795}
     - {fileID: -6110739339617674173}
     - {fileID: 4717961648806082775}
-    - {fileID: -2618620361230189039}
     - {fileID: 2768015733309899676}
     - {fileID: -5095453802846768969}
     - {fileID: -710080456104423256}
